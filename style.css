@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.All{
+    border: 2px solid black;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.all{
+    text-align: center;
+}
+header{
+    width: 100%;
+    padding: 20px;
+    background-color: #303030;
+    text-align: center;
+}
+button{
+    background-color:#0000;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+.remove{
+    display: none;
+}
